@@ -1,0 +1,14 @@
+{
+  "main": "bin/mail-parser",
+  "dependencies": {
+    "bluebird": "^2.9.33",
+    "colors": "^1.1.2",
+    "debug": "^2.2.0",
+    "json-stringify-safe": "^5.0.1",
+    "moment-timezone": "^0.4.0",
+    "needle": "^0.10.0",
+    "redis": "^0.12.1",
+    "redlock": "^0.2.0",
+    "underscore": "^1.8.3"
+  }
+}
