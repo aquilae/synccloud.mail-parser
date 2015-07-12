@@ -1,0 +1,16 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Authentication": {
+        "Bucket": "synccloud-deployments",
+        "Key": ".dockercfg"
+    },
+    "Image": {
+        "Name": "quay.io/ndelitski/synccloud-mail-parser:master",
+        "Update": "true"
+    },
+    "Ports": [
+        {
+            "ContainerPort": "80"
+        }
+    ]
+}
